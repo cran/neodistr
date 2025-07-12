@@ -41,7 +41,7 @@ function, \code{qmsnburr2a} gives the quantile function and \code{rmsnburr2a} ge
 random numbers.
 }
 \description{
-To calculate density function, distribution funcion, quantile function, and  build data from random generator function 
+To calculate density function, distribution function, quantile function, and  build data from random generator function 
 for the MSNBurr distribution.
 }
 \details{
@@ -69,7 +69,7 @@ hist(r, xlab = 'MSNBurr random number', ylab = 'Frequency',
 main = 'Distribution of MSNBurr-IIa Random Number ')
 }
 \references{
-Choir, A. S. (2020). The New Neo-Normal DDistributions and their Properties. Disertation. Institut Teknologi Sepuluh Nopember.
+Choir, A. S. (2020). The New Neo-Normal Distributions and their Properties. Dissertation. Institut Teknologi Sepuluh Nopember.
 }
 \author{
 Achmad Syahrul Choir and Nur Iriawan

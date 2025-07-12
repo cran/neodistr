@@ -1,6 +1,6 @@
 #'
 #' MSNBurr-IIa distribution.
-#' @import Rmpfr
+#' @importFrom Rmpfr log1mexp log1pexp
 #' @export
 #' @name msnburr2a
 #' @param x,q vector of quantiles. 
@@ -15,7 +15,7 @@
 #' \eqn{P\left[ X\leq x\right]}, otherwise, \eqn{P\left[ X>x\right] }.
 #' 
 #' @description
-#' To calculate density function, distribution funcion, quantile function, and  build data from random generator function 
+#' To calculate density function, distribution function, quantile function, and  build data from random generator function 
 #' for the MSNBurr distribution. 
 
 #' @keywords distribution
@@ -39,7 +39,7 @@
 #
 
 #' @references 
-#' Choir, A. S. (2020). The New Neo-Normal DDistributions and their Properties. Disertation. Institut Teknologi Sepuluh Nopember.
+#' Choir, A. S. (2020). The New Neo-Normal Distributions and their Properties. Dissertation. Institut Teknologi Sepuluh Nopember.
 #' 
 #' @examples
 #' library("neodistr")

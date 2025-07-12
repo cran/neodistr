@@ -51,7 +51,7 @@ fitted. The details of model specification are explained in
 \item{data}{An object of class \code{data.frame} (or one that can be coerced
 to that class) containing data of all variables used in the model.}
 
-\item{family}{the neo-normal distribution as response in  regression:msnburr(),msnburr2a(),gmsnburr(),jfst()
+\item{family}{the neo-normal distribution as response in  regression:msnburr(),msnburr2a(),gmsnburr(),jfst(), fossep(), jsep()
 default argument in family is vectorize=TRUE. if not vectorize, give argument vectorize=FALSE, example:msnburr(vectorize=FALSE)}
 
 \item{prior}{One or more \code{brmsprior} objects created by
@@ -266,7 +266,7 @@ Neo-normal model using brms
 Fit a neo-normal model that using brm function in brms package.All arguments in this functions follow arguments of brm function, except family
 }
 \examples{
-\donttest{
+\dontrun{
   library(neodistr)
   x<-runif(100)
   e<-rmsnburr(100,0,1,0.8)
@@ -282,11 +282,11 @@ Fit a neo-normal model that using brm function in brms package.All arguments in 
   }
 }
 \references{
-Buerkner,P-C (2017). brms: An R Package for Bayesian Multilevel
+Burkner,P-C (2017). brms: An R Package for Bayesian Multilevel
 Models Using Stan. \emph{Journal of Statistical Software}, 80(1), 1-28.
 \code{doi:10.18637/jss.v080.i01}
 
-Choir, A. S. (2020). The New Neo-Normal Distributions and their Properties. Disertation. Institut Teknologi Sepuluh Nopember.
+Choir, A. S. (2020). The New Neo-Normal Distributions and their Properties. Dissertation. Institut Teknologi Sepuluh Nopember.
 
 Iriawan, N. (2000). Computationally Intensive Approaches to Inference in Neo-Normal Linear Models. Curtin University of Technology.
 }

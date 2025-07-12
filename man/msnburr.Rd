@@ -40,7 +40,7 @@ The default value of this parameter is FALSE.}
 \code{qmsnburr} gives quantiles function, \code{rmsnburr} generates random  numbers.
 }
 \description{
-To calculate density function, distribution funcion, quantile function, and  build data from random generator function 
+To calculate density function, distribution function, quantile function, and  build data from random generator function 
 for the MSNBurr Distribution.
 }
 \details{
@@ -67,7 +67,7 @@ main = 'Distribution of MSNBurr Random Number ')
 \references{
 Iriawan, N. (2000). Computationally Intensive Approaches to Inference in Neo-Normal Linear Models. Curtin University of Technology.
 
-Choir, A. S. (2020). The New Neo-Normal Distributions and their Properties. Disertation. Institut Teknologi Sepuluh Nopember.
+Choir, A. S. (2020). The New Neo-Normal Distributions and their Properties. Dissertation. Institut Teknologi Sepuluh Nopember.
 }
 \author{
 Achmad Syahrul Choir and Nur Iriawan

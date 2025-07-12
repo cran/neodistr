@@ -14,7 +14,7 @@
 #' \eqn{P\left[ X\leq x\right]}, otherwise, \eqn{P\left[ X>x\right] }.
 #' 
 #' @description
-#' To calculate density function, distribution funcion, quantile function, and  build data from random generator function 
+#' To calculate density function, distribution function, quantile function, and  build data from random generator function 
 #' for the MSNBurr Distribution. 
 #' @keywords distribution
 #' @concept Univariate
@@ -37,7 +37,7 @@
 #' @references 
 #' Iriawan, N. (2000). Computationally Intensive Approaches to Inference in Neo-Normal Linear Models. Curtin University of Technology.
 #' 
-#' Choir, A. S. (2020). The New Neo-Normal Distributions and their Properties. Disertation. Institut Teknologi Sepuluh Nopember.
+#' Choir, A. S. (2020). The New Neo-Normal Distributions and their Properties. Dissertation. Institut Teknologi Sepuluh Nopember.
 #' 
 
 #' @examples
